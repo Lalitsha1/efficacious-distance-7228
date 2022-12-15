@@ -21,3 +21,8 @@ image.innerText = "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bath
 
 childdiv8.append(image);
 div8.append(childdiv8);
+
+// ===================================================================================================================================
+
+
+     

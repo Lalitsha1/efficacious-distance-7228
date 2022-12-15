@@ -7,11 +7,14 @@
 
 
 
+
 .main {
     display: flex;
     justify-content: space-between;
     background-color: aliceblue;
-    
+    position: sticky;
+    top: 0px;
+    z-index: 100;
 }
 
 #topleft {
@@ -52,10 +55,11 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     padding-top: 10px;
     margin: 2px;
+   
 }
 
 #div2 {
-    display: grid;
+    display: flex;
     background-image: url("https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/on/demandware.static/-/Sites-BathAndBodyWorks-Library/en_US/v1670928374177/images/Christmas2022/Logos-Christmas-2022.svg?yocs=o_s_");
     background-repeat: no-repeat;
     background-position: center;
@@ -67,10 +71,11 @@
 input {
     width: 250px;
     height: 30px;
-    background-image: url('https://cdn-icons-gif.flaticon.com/6569/6569137.gif ' );
-    background-size: 30px;
+    background-image: url('https://cdn-icons-gif.flaticon.com/8112/8112604.gif');
+    background-size: 40px;
     background-repeat: no-repeat;
     background-position: 220px;
+    
 }
 
 #div2 ul li {
@@ -80,8 +85,7 @@ input {
 
 .img2 {
    height: 40px;
-   justify-content: end;
-   margin-left: 10px;
+  
 }
 
 #div2 ul {
@@ -90,28 +94,27 @@ input {
 
 /* ================================================================================================================================= */
 
-#div3>ul {
+
+.ula{
+    text-decoration: none;
+    color: #333;
+    margin-top: 20px;
+}
+
+
+.ul3{
     display: flex;
-
-
+    /* gap: 5px; */
 }
-
-#div3 >ul  li {
-    color: #333;
-    margin: 2.2%;
+.ul3 , li{
+    margin: 2%;
     border: none;
-    display: table-cell;
+    display: flex;
     font-size: 12px;
+    margin-top: 2%; 
 }
 
-.lastli {
-    color: red;
-    text-decoration: none;
-}
-#div3 > ul li a{
-    text-decoration: none;
-    color: #333;
-}
+
 
 /* ================================================================================================================================= */
 
@@ -151,6 +154,8 @@ p a {
 .div5main{
     width: 95%;
     margin: auto;
+    height: auto;
+   
 }
 
 
@@ -187,10 +192,9 @@ p a {
 .div7top{
     background: #f4f2f2;
     height: 370px;
-    /* display: flex; */
-    overflow: auto hidden;
-   width: 100%;
+    width: 100%;
     margin-top: 2%;
+
 }
 
 .p{
@@ -207,28 +211,23 @@ p a {
 }
 
 .eig{
-    /* height: 240px;
-    border: 1px solid black;
+    
     display: grid;
-    gap: 10px;
-    margin-top: 5%;
-    width: auto;
-    position: absolute;
-    cursor: grab;
-    width: 100%; */
-    display: grid;
-    grid-template-columns: repeat(8 , 1fr);
     grid-auto-flow: column;
+    grid-auto-columns: 25%;
     gap: 5px;
-    margin-top: 5%;
+    margin-top: 4%;
+    overflow-x: scroll; 
+     overscroll-behavior-inline:contain ;
+    cursor: grab;
 }
 .eight{
-  height: 230px;
-  border: 2px solid black;
+    scroll-behavior: smooth;
+  height: 250px;
+  border: 1px solid black;
   width: auto;
- 
-  
 }
+
 
 .eight > button a{
     text-decoration: none;
@@ -238,4 +237,213 @@ p a {
 .eight > button{
     width: 90%;
     margin: 5%;
+    height: 35px;
 }
+/* ========================================================================================================================== */
+
+.div8img{
+    width: 100%;
+    height: 500px;
+    margin-top: 5%;
+    
+}
+/* =============================================================================================================================== */
+
+.divtwo{
+   height: 350px;
+   width: 100%;
+}
+
+.text{
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;   
+  margin-top: 25px;
+}
+
+.divimg9{
+     display: flex;
+     height: 240px;
+     margin-top: 30px;
+}
+
+.childdiv9 a img{
+    height: 150px;
+    width: 170px;
+    
+
+}
+.childdiv9{
+    gap: 20px;
+    margin: 0.7%;
+}
+.childdiv9 , h3 a{
+    color: #333;
+    text-align: center;
+    font-size: large;
+    font-family: serif;
+    margin-top: 20px;
+    
+}
+/* =============================================================================================================================== */
+
+.div9{
+    width: 100%;
+}
+
+/* ================================================================================================================================= */
+.div10{
+    width: 100%;
+}
+
+.div10ul{
+    display: flex;
+    margin-top: 30px;
+}
+.div10ul  li button{
+    height: 50px;
+    width: 100%;
+    background-color: #333333;
+    margin-right: 29px;
+    margin-top: 10px;
+    
+}
+.div10ul li button a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+;
+}
+.div10li{
+   margin-left: 38%;
+}
+.div10li li button{
+    height: 40px;
+    width: 20%;
+    background-color: #333333;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.div10li li button a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+/* 
+===================================================================================================================================
+*/
+.img10{
+    width: 100%;
+}
+
+/* ======================================================================================================================== */
+
+.ul11{
+    display: flex;
+    margin-left: 30%;
+}
+.li11{
+    border: 1px solid black;
+    height: 30px;
+    width: 150px;
+    background-color: #333333;
+}
+.li11  a{
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    font: italic small-caps bold 16px/2 cursive;
+}
+
+/* ========================================================================================================================== */
+
+#div12 {
+    text-align: center;
+    font: italic small-caps bold 16px/2 cursive;
+    font-size: x-large;
+   
+}
+
+/* =========================================================================================================================== */
+
+.div13inner{
+    display: flex;
+}
+
+.div13img{
+    height: 70px;
+    width: 190px;
+    
+}
+.div13img img{
+    height: 200px;
+    width: 100%;
+    
+
+}
+.div13img button{
+    border: none;
+    background-color: white;
+    margin-left: 30px;
+    
+}
+.div13inner button:hover{
+    border: dotted;
+    
+}
+.div13img button a{
+    color: #333333;
+    font: italic;
+}
+
+/* ============================================================================================================================== */
+
+.div14main{
+    height: 40px;
+    margin-top: 20%;
+   
+   
+}
+.div14in{
+    display: flex;
+    margin-left: 3%;
+}
+.div14in img{
+    height: 30px;
+    margin-top: 0.5%;
+}
+.divone{
+    margin-top: 0.5%;
+}
+
+.divtwo{
+    font-family: trendsansw05-one,Arial,sans-serif;
+    font-size: x-large;
+}
+
+/* ============================================================================================================================== */
+
+.div15in{
+    margin-top: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #333333;
+}
+/* ============================================================================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
