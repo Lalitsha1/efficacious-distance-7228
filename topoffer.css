@@ -1,0 +1,113 @@
+.topoffer{
+    width: 90%;
+    margin: auto;
+}
+
+.homepage{
+    margin-top: 10px;
+}
+.homepage a{
+    text-decoration: none;
+    margin: 3px;
+    color: grey;
+}
+.homepage a:hover{
+    text-decoration: underline;
+    color: #4070f4;
+}
+
+#imgtop2{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.hone1{
+   width: 100%;
+}
+.homea{
+   color: #333;
+   text-decoration: underline;
+}
+.dropp{
+    width: 100%;
+}
+
+/* ========================================================================================================================== */
+
+.topofferimg{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    height: auto;
+    width: 100%;
+    gap: 25px;
+}
+
+.topimgin{
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-top: 20px;
+
+}
+
+.topimgin1 img{
+    width: 100%;
+    height: 230px;
+}
+.topintext{
+    text-align: center;
+    color: gray;
+    font-size: medium;
+    margin-top: 0px;
+    margin: 15px;
+}
+.h2{
+    color: black;
+    font-size: x-large;
+}
+.inbutton{
+    background-color: black;
+    color: white;
+    width: 80%;
+    height: 45px;
+    margin-bottom: 12px;
+    margin-left: 24px;
+}
+.up{
+    /* margin-top: 32px; */
+    line-height: 40px;
+
+}
+@media screen and (max-width:500px){
+    .topofferimg{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+}
+/* ========================================================================================================================= */
+
+.divimgg{
+    margin-top: 70px;
+}
+.divimgg img{
+    margin-left: 23%;
+    
+}
+
+.hrr hr{
+    width: 60%;
+}
+
+/* ========================================================================================================================== */
+
+#p1{
+     font-size: x-large;
+     margin-right: 150px;
+}
+
+.p2{
+    font-size: large;
+    color: gray;
+    width: 50%;
+    margin-left: 23%;
+
+}
