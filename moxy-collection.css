@@ -1,0 +1,32 @@
+#container{
+    width: 80%;
+    margin-left: 18%;
+}
+
+.containerin{
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.product{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    width: 100%;
+    gap: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.containerimg img{
+    width: 100%;
+}
+
+.moxybtn{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 80%;
+    text-align: center;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}

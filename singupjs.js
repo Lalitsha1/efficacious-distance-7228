@@ -31,7 +31,7 @@ user_record=JSON.parse(localStorage.getItem("user"))?JSON.parse(localStorage.get
 user_record.push({
     "name": names,
      "email": email,
-     "email": emails,
+     "emails": emails,
      "zip" : zip,
      "password": password,
      "number" : number,
@@ -40,5 +40,32 @@ user_record.push({
 
 localStorage.setItem("user" , JSON.stringify(user_record))
 
+let check=document.getElementById("check")
+let checkpass=document.getElementById("checkpass")
+
+// ===============================================================================================================
+
+// let user_record=JSON.parse(localStorage.getItem("user"))||[];
+
+
+let btn = document.getElementById('btn')
+btn.addEventListener('click',checkLogin())
+function checkLogin(){
+    console.log('helo')
+console.log(check.value)
+    user_record.forEach((element) => {
+        if(check.value===element.email && checkpass.value===element.password){
+          heading.innerText="Log in Successful"
+          window.location.href="./index.html"
+          
+        }
+        else{
+          heading.innerText="Wrong Credentials"
+        }
+      });
+      
+  }
 
 }
+
+
