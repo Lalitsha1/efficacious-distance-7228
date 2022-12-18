@@ -56,7 +56,7 @@ console.log(check.value)
     user_record.forEach((element) => {
         if(check.value===element.email && checkpass.value===element.password){
           heading.innerText="Log in Successful"
-          window.location.href="./day1.html"
+          window.location.href="./index.html"
           
         }
         else{
